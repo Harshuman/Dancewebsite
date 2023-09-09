@@ -1,0 +1,58 @@
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+body
+  nav#navbar 
+     ul 
+
+         div#logo  
+             img(src="/static/img/yes.png")
+             | HDA
+         li #[a(href="/") Home] 
+         li #[a(href="/") About] 
+         li #[a(href="/") Services]
+         li #[a(href="/") Class Info]
+         li #[a(href="/") Contact Us] 
+        
+          
+section#introsection
+     div Welcome to Harshu's Dance Academy
+     div.small Eat Sleep Dance Repeat
+
+section#missionsection
+     h2 Our Mission
+     div.card
+       h3 Dance Perfection
+       div.card-box  
+           div.card-img 
+              img(src="/static/img/5.png")
+           div.card-content 
+              p This is best dance academy of universe.
+     div.card
+       h3 Dance Way to Well
+       div.card-box  
+           div.card-img 
+              img(src="/static/img/5.png")
+           div.card-content 
+              p This is best dance academy of universe.
+     div.card
+       h3 Dancer Expert 
+       div.card-box  
+           div.card-img 
+              img(src="/static/img/7.png")
+           div.card-content 
+              p This is best dance academy of universe.
+       
+section#sponcersection 
+     h2 our sponcer 
+     din#sponcer  
+          img(src="/static/img/go.png", Class="SPimage")
+          img(src="/static/img/p.png", Class="SPimage")
+          img(src="/static/img/mico.png", Class="SPimage")
+          img(src="/static/img/apple.png", Class="SPimage")
+footer#footer 
+    | Copyright © 2023 HarshuAcademy.com | All Rights Reserved
+script
+      include ../static/index.js
